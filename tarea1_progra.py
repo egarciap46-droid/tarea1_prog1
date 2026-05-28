@@ -15,8 +15,8 @@ class DatabaseManager:
             self.connection = psycopg2.connect(
                 host="localhost",
                 database="tarea1",
-                user="postgres",
-                password="tu_contraseña",
+                user="emer",
+                password="Fun3nl4biografi@",
                 port="5432"
             )
             self.cursor = self.connection.cursor()
